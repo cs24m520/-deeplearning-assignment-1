@@ -527,8 +527,3 @@ Input (32x32x3)
 ## Author
 
 Joshua Sumanth Kumar Relton
-
-## Acknowledgments
-
-- AutoAugment policy implementation based on the paper "AutoAugment: Learning Augmentation Policies from Data"
-- VGG architecture inspired by "Very Deep Convolutional Networks for Large-Scale Image Recognition"
