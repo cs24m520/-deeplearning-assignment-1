@@ -1,0 +1,113 @@
+# VGG6 CIFAR-10 Assignment - Git Ignore
+
+# Data directories
+data/
+dataset/
+datasets/
+
+# Weights & Biases logs and artifacts
+wandb/
+*.wandb
+
+# User-specific W&B directories
+cs24m520-iitm-india/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyTorch model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Log files
+*.log
+logs/
+
+# Generated plots and images (optional - comment out if you want to track them)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Test and experimental files
+test_*.py
+experiment_*.py
+scratch_*.py
+
+# Documentation build outputs
+docs/_build/
+site/
+
+# Package distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
